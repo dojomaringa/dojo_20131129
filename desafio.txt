@@ -1,0 +1,14 @@
+Em muitos jogos, a lógica de disparo de armas é
+esta:
+
+- Quando a arma está carregada, o disparo é
+  imediato;
+- Depois de um tempo, a arma está como
+  "recarregando". Então, pressionando
+  novamente a tecla de disparo, não há disparo;
+- Passado o tempo de "recarregando", a arma
+  pode ser disparada novamente;
+
+Depois, elabore uma lógica para esta ideia.
+A inteção é ter um "relógio de contagem
+regressiva", agindo como a ideia acima.
